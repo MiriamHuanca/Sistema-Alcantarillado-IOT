@@ -1,0 +1,36 @@
+create table registro
+(
+	id_registro varchar(5) not null,
+	id_carnet varchar(10) not null,
+	da_temperatura integer,
+	da_ph integer,
+	da_turbidez integer,
+	da_conductividad integer,
+	da_caudal integer,
+    fecha_a date DEFAULT NULL,
+    hora_a varchar(5) DEFAULT NULL,
+	Primary key(id_registro, id_carnet)
+);
+
+create table persona
+(
+	id_carnet varchar(10) not null,
+	nombre varchar(50),
+	usuario varchar(20),
+	contrasenia varchar(20),
+	Primary key(id_carnet)
+);
+
+----------------------------------------------------------------datos---------------------------------------------
+
+insert into registro values('1','10039164',23,6.5,0,1.500,0.33,'2018-03-22','12:00' );
+insert into registro values('2','10039165',30,7.0,0,1.501,0.33,'2018-03-22','12:05' );
+insert into registro values('3','10039264',25,8.1,0.5,1.502,0.33,'2018-03-22','12:10' );
+insert into registro values('4','11039164',33,5.9,0,1.503,0.33,'2018-03-22','12:15' );
+insert into registro values('5','10049165',27,6.1,0.5,1.511,0.33,'2018-03-22','12:20' );
+
+persona (id_empleado,nombre,tipo_e,usuario,contrasenia)
+
+insert into persona values('10039164','HERNAN MAMANI HUANCA','ADMIN','12345');
+insert into persona values('10049165','CAROLINA MAMANI FLORES','CAR8039174','CMF8039174');
+

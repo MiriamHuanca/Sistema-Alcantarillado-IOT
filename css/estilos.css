@@ -1,0 +1,54 @@
+/*---HEADER--*/
+.navbar{
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background-color: #428BCA;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lado_der{
+	margin: 0px 20px;
+	float: left;
+}
+
+.post {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+header {
+	background: #2c3e50;
+	color: #fff;
+}
+.main{
+	background: #f2f2f2;
+}
+.color1{
+	background: #34495e;
+	color: #fff;
+}
+aside {
+	background: #c0392b;
+	color: #fff;
+}
+footer {
+	background: #16a085;
+	color: #fff;
+}
+
+.caja_1{
+	margin: 0px 30px;
+	float: left;
+}
+
+.caja_2{
+	margin: 0px 30px;
+	float: right;
+}

@@ -1,0 +1,32 @@
+.texto1 {/*del usuario y pasword en index*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: black;
+	text-align: right;
+	font-weight: bold;
+}
+.titulo_centro {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15x;
+	font-weight: bold;
+	color: #FFFFFF;
+	
+	text-align: center;
+}
+.texto_centro {/*MENSAJE DE ERROR*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+.texto_formulario
+{
+	font-family: Arial;
+	font-size: 15px;
+	color: black;
+	text-align: right;
+	font-weight: bold;
+	
+}
